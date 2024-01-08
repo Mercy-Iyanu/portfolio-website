@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Nunito:wght@200;400;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito";
+}
+
+.container-fluid {
+    background: #151e3d;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 3em;
+}
+
+nav a img {
+    width: 50px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+button {
+    margin: 2em 0;
+    padding: 1em 5em;
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #fff;
+    background: teal;
+    transition-duration: 1s;
+}
+
+a {
+    text-decoration: none;
+    color: cyan;
+}
+
+a:hover {
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding-top: 3em;
+}
+
+header h5,
+header h3,
+header h1,
+header h6 {
+    margin: .2em;
+}
+
+h5 {
+    font-size: 1.5rem;
+    color: teal;
+    font-weight: 300;
+}
+
+h6 {
+    font-size: 1.2rem;
+    color: teal;
+    font-weight: 300;
+    text-align: justify;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 400;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8rem;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    h3 {
+        font-size: 2rem;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    h6 {
+        padding-top: 2.5em;
+        font-size: 1rem;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+h3 {
+    font-size: 3.5rem;
+    color: gold;
+    font-weight: 600;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    padding-left: 35em;
+}
+
+header ul li {
+    padding-left: 2.2em;
+    padding-bottom: 1.2em;
+}
+
+@media (max-width: 600px) {
+    header ul {
+        padding-left: 9em;
+    }
+}
+
+header ul li a i {
+    color: #fff;
+}
+
+i:hover {
+    color: teal;
+}
