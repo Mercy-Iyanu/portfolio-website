@@ -67,7 +67,7 @@ h5 {
 
 h6 {
     font-size: 1.2rem;
-    color: teal;
+    color: rgb(1, 184, 184);
     font-weight: 300;
     text-align: justify;
     padding-left: 10em;
@@ -127,6 +127,12 @@ header ul li {
 @media (max-width: 600px) {
     header ul {
         padding-left: 9em;
+    }
+}
+
+@media (max-width: 800px) {
+    header ul {
+        padding-left: 5em;
     }
 }
 
